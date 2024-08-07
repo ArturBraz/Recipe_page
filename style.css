@@ -1,10 +1,10 @@
-:root{
-    font-family: "Alice",serif;
+:root {
+    font-family: "Alice", serif;
     line-height: 150%;
-    color: #573A37;
+    color: #573a37;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -24,7 +24,7 @@ body {
     right: 0;
     bottom: 0;
     background-color: #573824;
-    opacity: 0.7;
+    opacity: 0.8;
     z-index: 0;
 }
 
@@ -35,7 +35,7 @@ body {
     padding: 24px;
     background-color: #f0e8c2;
     border-radius: 24px;
-    margin: 48px auto;
+    margin: 48px auto 28px;
     z-index: 2;
 }
 
@@ -43,35 +43,47 @@ img {
     border-radius: 16px;
 }
 
-main{
+main {
     padding: 24px;
 }
 
-section + section{
+section + section {
     margin-top: 24px;
 }
 
-#about p + p{
+#about p + p {
     margin-top: 12px;
 }
-h1{
+h1 {
     line-height: 140%;
     font-size: 40px;
-    
 }
-h2{
+h2 {
     font-size: 24px;
 }
-h1,h2{
-    color: #291B1A;
+h1,
+h2 {
+    color: #291b1a;
     margin-bottom: 4px;
     line-height: 150%;
 }
 
-ul{
+ul {
     padding-left: 24px;
 }
 
-#preparation p{
-   margin-bottom: 1rem;
+#preparation p {
+    margin-bottom: 1rem;
+}
+
+footer {
+    position: relative;
+    color: #f0e8c2;
+    text-align: center;
+    z-index: 2;
+    padding-bottom: 48px;
+}
+
+footer img{
+    vertical-align: middle;
 }
